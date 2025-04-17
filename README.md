@@ -34,7 +34,7 @@ Visual confirmation of successful Netdata deployment:
 
 **Key Performance Indicators (KPIs) Monitored:** CPU Utilization – To ensure optimal application processing. Memory Usage – To prevent memory leaks or exhaustion. Disk I/O – To analyze storage responsiveness and potential bottlenecks. Network Throughput – To monitor data transfer rates and detect network-related issues.
 
-**4. How was Netdata deployed?** Netdata was deployed using Docker on each target virtual machine using the following command:
+**4. How was Netdata deployed?** Netdata was deployed using Docker on my virtual machine using the following command:
 
 ```bash
 docker run -d --name=netdata-monitor -p 19999:19999 netdata/netdata
