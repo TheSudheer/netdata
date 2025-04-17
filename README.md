@@ -1,10 +1,10 @@
-# System Performance Monitoring Project with Netdata
+# System Performance Monitoring with Netdata
 
-This README outlines the implementation of system performance monitoring using **Netdata**, as part of  optimizing resource utilization, and gaining insights into system behavior.
+This README outlines the implementation of system performance monitoring using **Netdata**, as part of a larger initiative focused on [**Insert overarching goal here** — e.g., ensuring application stability, optimizing resource utilization, or gaining insights into system behavior].
 
 ## Project Goal
 
-The primary goal of this project is to learn & explore about monitoring tools like Netdata & Prometheus
+The primary goal of this project is to [**Insert detailed project goal** — e.g., proactively identify and address performance bottlenecks across application infrastructure to ensure high availability, maintain application responsiveness, and improve overall user experience].
 
 ## Netdata Integration Overview
 
@@ -14,9 +14,15 @@ Netdata is integrated into our system for real-time performance monitoring, enab
 
 The integration of Netdata in this project supports the following objectives: establish a performance baseline across virtual machines, detect real-time anomalies and issues, analyze trends in CPU, memory, disk, and network utilization, and support capacity planning and performance tuning.
 
-## Screenshots
+## ## Screenshots
 
-Visual confirmation of successful Netdata deployment: `screenshots/netdata-1.png` shows the main dashboard overview of system health and metrics, while `screenshots/netdata-metrics.png` displays granular resource-specific metrics captured in real time.
+Visual confirmation of successful Netdata deployment:
+
+![Netdata Main Dashboard](screenshots/netdata-1.png)
+*Figure: Main dashboard showing system health and key performance metrics.*
+
+![Netdata Metrics Details](screenshots/netdata-metrics.png)
+*Figure: Detailed performance metrics visualized by Netdata, including CPU, memory, disk, and network usage.*
 
 ## Netdata Q&A in Project Context
 
